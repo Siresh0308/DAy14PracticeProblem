@@ -2,6 +2,7 @@ package LinkList;
 
 
 
+
 public class LinkedList {
     Node head, tail;
 
@@ -49,5 +50,8 @@ public class LinkedList {
             temp = temp.next;
         }
         return null;
+    }
+    public void pop(){
+        head = head.next;
     }
 }
