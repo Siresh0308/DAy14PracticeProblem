@@ -33,6 +33,7 @@ public class ToCreateAQueue
             System.out.println("List is Empty");
         }
         while (current != null) {
+
             System.out.print(current.data + "->");
             current = current.next;
         }
